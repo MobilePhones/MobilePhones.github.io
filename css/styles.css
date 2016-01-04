@@ -1,0 +1,26 @@
+body {
+	background-color: #EDEDED;
+}
+
+#navigation {
+	background-color: #00BCD4;
+}
+
+nav #logo {
+	position: absolute;
+	color: #FFFFFF;
+}
+
+nav #nav-buttons {
+	float: right;
+} 
+
+.content-width {
+	margin: auto;
+	max-width: 1366px;
+	width: 90%;
+}
+
+#footer {
+	background-color: #00BCD4;
+}

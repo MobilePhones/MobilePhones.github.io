@@ -5,6 +5,8 @@
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<!--Import materialize.css-->
 		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+		<!--Import our styles.css-->
+		<link type="text/css" rel="stylesheet" href="css/styles.css"/>
 
 		<!--Let browser know website is optimized for mobile-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -23,8 +25,27 @@
 	<body>
     	<div id="container">
     		<div id="header">
-                <nav id="nav_bar"><div class="nav-wrapper">
-            	</div></nav>
+                <nav id="navigation">
+                    <div class="nav-wrapper content-width">
+                        <a id="logo" class="brand-logo">SmartPhones</a>
+                        <ul id="nav-buttons">
+                            <li><a href="#!">Home</a></li>
+                            <li><a href="#!" class="dropdown-button" data-activates="smartphones">SmartPhones</a></li>
+                            <li><a href="#!">Contact Us</a></li>
+                            <li><a href="#!">About</a></li>
+                        </ul>
+                        <ul id="smartphones" class="dropdown-content">
+                            <li><a href="#!">Samsung</a></li>
+                            <li><a href="#!">Sony</a></li>
+                            <li><a href="#!">HTC</a></li>
+                            <li><a href="#!">Apple</a></li>
+                            <li><a href="#!">LG</a></li>
+                            <li><a href="#!">Motorola</a></li>
+                            <li><a href="#!">Nokia</a></li>
+                            <li><a href="#!">BlackBerry</a></li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
             
             <div id="main_content">
@@ -34,11 +55,11 @@
             </div>
             
     		<footer id="footer" class="page-footer">
-            	<div class="container">
+            	<div class="content-width">
             
             	</div>
             	<div class="footer-copyright">
-                	<div class="container"></div>
+                	<div class="content-width">Designed by Omar & Anas Einea</div>
                 </div>
             </footer>
     	</div>
