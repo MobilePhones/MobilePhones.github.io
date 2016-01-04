@@ -15,6 +15,17 @@ nav #nav-buttons {
 	float: right;
 } 
 
+#rotating-banner {
+	height: 600px;
+	width: 100%;
+	position: relative;
+}
+
+#rotating-banner h5 {
+	color: #eeeeee !important;
+	font-weight: 300;
+}
+
 .content-width {
 	margin: auto;
 	max-width: 1366px;
@@ -23,4 +34,5 @@ nav #nav-buttons {
 
 #footer {
 	background-color: #00BCD4;
+}li .caption.center-align .light {
 }
