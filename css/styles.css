@@ -113,6 +113,19 @@ nav #nav-buttons {
 	margin-bottom: 12px;
 }
 
+.content-margin {
+	margin-top: 24px;
+	margin-bottom: 48px;
+}
+
+#flabel {
+	margin-left: 20px;
+}
+
+#join_us {
+	padding-left: 10px;
+}
+
 #footer {
 	background-color: #00BCD4;
 }

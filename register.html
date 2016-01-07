@@ -61,11 +61,11 @@
                     <!--Login dialog Structure -->
                     <div id="login-dialog" class="modal">
                         <h5>Sign in</h5>
-                        <div class="input-field less-left">
+                        <div class="input-field">
                             <input id="username" type="text" class="validate">
                             <label for="username" class="no-left">Username</label>
                         </div>
-                        <div class="input-field less-left">
+                        <div class="input-field">
                             <input id="password" type="password" class="validate">
                             <label for="password" class="no-left">Password</label>
                         </div>
@@ -121,10 +121,62 @@
                     </ul>
                 </div>
             </div>
-            <div id="main_content">
             <!-- InstanceBeginEditable name="Main_Editable_Region" -->
+            <div id="main_content" class="max-width content-margin">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title" id="join_us">Join Us</span>
+                        <form>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="first_name" type="text" class="validate">
+                                    <label for="first_name">First Name</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Last Name</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="email" type="email" class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="email2" type="email" class="validate">
+                                    <label for="email2">Confirm Email</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="rpassword" type="password" class="validate">
+                                    <label for="rpassword">Password</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="rpassword2" type="password" class="validate">
+                                    <label for="rpassword2">Confirm Password</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="rusername" type="text" class="validate">
+                                    <label for="rusername">Username</label>
+                                </div>
+                                <div class="input-field col s2" >
+                                    <input name="gender" type="radio" id="male" />
+                                    <label for="male">Male</label>
+                                    <input name="gender" type="radio" id="female" />
+                                    <label for="female" id="flabel">Female</label>
+                                </div>
+                                <div class="col s4">
+                                	<a onclick="register()" id="register-button" class="waves-effect waves-light btn-large">Complete Registration</a>
+								</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+			</div>
             <!-- InstanceEndEditable -->
-            </div>
             
             <!-- InstanceBeginEditable name="SideBar_Start" -->
     		<div id="side_bar">
