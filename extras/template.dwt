@@ -1,30 +1,30 @@
 <!doctype html>
-<html><!-- InstanceBegin template="/extras/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<html>
     <head>
 		<!--Import Google Icon Font-->
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<!--Import materialize.css-->
-		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+		<link type="text/css" rel="stylesheet" href="../css/materialize.css"  media="screen,projection"/>
 		<!--Import our styles.css-->
-		<link type="text/css" rel="stylesheet" href="css/styles.css"/>
+		<link type="text/css" rel="stylesheet" href="../css/styles.css"/>
 		<!--Let browser know website is optimized for mobile-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         
         <!--Import jQuery before materialize.js-->
-		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+		<script type="text/javascript" src="../js/jquery-2.1.4.js"></script>
         <!--Import materialize.js-->
-		<script type="text/javascript" src="js/materialize.js"></script>
+		<script type="text/javascript" src="../js/materialize.js"></script>
         <!--Import our javascript.js-->
-		<script src="js/javascript.js"></script>
+		<script src="../js/javascript.js"></script>
 
         <!--Set page character encoding-->
 		<meta charset="utf-8">
         <!--Set page title-->
-    <!-- InstanceBeginEditable name="doctitle" -->
+    <!-- TemplateBeginEditable name="doctitle" -->
         <title>Mobile Phones</title>
-        <!-- InstanceEndEditable -->
-        <!-- InstanceBeginEditable name="head" -->
-        <!-- InstanceEndEditable -->
+        <!-- TemplateEndEditable -->
+        <!-- TemplateBeginEditable name="head" -->
+        <!-- TemplateEndEditable -->
     </head>
 
 	<body>
@@ -35,11 +35,11 @@
                         <div class="nav-wrapper max-width">
                             <a id="logo" class="brand-logo">SmartPhones</a>
                             <ul id="nav-buttons">
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="../index.html">Home</a></li>
                                 <li><a class="dropdown-button" data-activates="brands">Brands</a></li>
-                                <li><a href="reviews.html">Reviews</a></li>
-                                <li><a href="contact_us.html">Contact Us</a></li>
-                                <li><a href="about.html">About</a></li>
+                                <li><a href="../reviews.html">Reviews</a></li>
+                                <li><a href="../contact_us.html">Contact Us</a></li>
+                                <li><a href="../about.html">About</a></li>
 								<li><a href="#login-dialog" id="login" class="waves-effect waves-light btn-large modal-trigger">Login</a></li>
                             </ul>
                         </div>
@@ -48,13 +48,13 @@
                 <!--Hidden structures unless triggered-->
                     <!--Brands dropdown structure-->
                     <ul id="brands" class="dropdown-content">
-                        <li><a href="apple.html">Apple</a></li>
-                        <li><a href="samsung.html">Samsung</a></li>
-                        <li><a href="lg.html">LG</a></li>
-                        <li><a href="sony.html">Sony</a></li>
-                        <li><a href="htc.html">HTC</a></li>
-                        <li><a href="nokia.html">Nokia</a></li>
-                        <li><a href="motorola.html">Motorola</a></li>
+                        <li><a href="../apple.html">Apple</a></li>
+                        <li><a href="../samsung.html">Samsung</a></li>
+                        <li><a href="../lg.html">LG</a></li>
+                        <li><a href="../sony.html">Sony</a></li>
+                        <li><a href="../htc.html">HTC</a></li>
+                        <li><a href="../nokia.html">Nokia</a></li>
+                        <li><a href="../motorola.html">Motorola</a></li>
                     </ul>
                     <!--Login dialog Structure -->
                     <div id="login-dialog" class="modal">
@@ -71,48 +71,48 @@
 						<div id="divider">
                     		<span id="divider-text">NEW ?</span>
                 		</div>
-                        <a href="register.html" id="register-button" class="waves-effect waves-light btn-large">Register</a>
+                        <a href="../register.html" id="register-button" class="waves-effect waves-light btn-large">Register</a>
                     </div>
                 <!--End of hidden structures-->
                 <div class="slider" id="rotating-banner">
                     <ul class="slides">
                         <li>
-                            <img src="img/apple.jpg" alt="Apple">
+                            <img src="../img/apple.jpg" alt="Apple">
                             <div class="caption center-align">
                                 <h3>Apple</h3>
                                 <h5>Think Different</h5>
                             </div>
                         </li>
                         <li>
-                            <img src="img/samsung.jpg" alt="Samsung">
+                            <img src="../img/samsung.jpg" alt="Samsung">
                             <div class="caption left-align">
                                 <h3>Samsung</h3>
                                 <h5>Imagine</h5>
                             </div>
                         </li>
                         <li>
-                            <img src="img/lg.jpg" alt="LG">
+                            <img src="../img/lg.jpg" alt="LG">
                             <div class="caption right-align">
                                 <h3>LG</h3>
                                 <h5>Life's Good</h5>
                             </div>
                         </li>
                         <li>
-                            <img src="img/sony.jpg" alt="Sony">
+                            <img src="../img/sony.jpg" alt="Sony">
                             <div class="caption left-align">
                                 <h3>Sony</h3>
                                 <h5>Be Moved</h5>
                             </div>
                         </li>
                         <li>
-                            <img src="img/htc.jpg" alt="HTC">
+                            <img src="../img/htc.jpg" alt="HTC">
                             <div class="caption center-align">
                                 <h3>HTC</h3>
                                 <h5>One Life</h5>
                             </div>
                         </li>
                         <li>
-                            <img src="img/nokia.jpg" alt="Nokia">
+                            <img src="../img/nokia.jpg" alt="Nokia">
                             <div class="caption left-align">
                                 <h3>Nokia</h3>
                                 <h5>Connecting People</h5>
@@ -121,12 +121,12 @@
                     </ul>
                 </div>
             </div>
-            <!-- InstanceBeginEditable name="Editable_Region" -->
+            <!-- TemplateBeginEditable name="Editable_Region" -->
             <div id="main_content">
             </div>
     		<div id="side_bar">
             </div>
-            <!-- InstanceEndEditable -->
+            <!-- TemplateEndEditable -->
     		<footer id="footer" class="page-footer">
                 <div class="max-width">
                     <div class="row">
@@ -149,13 +149,13 @@
                         <div class="col footer-parts">
                             <h5>Follow us on</h5>
                             <a class="icons" href="https://www.facebook.com/Mobile-Phones-1170165199669135/">
-                                <object type="image/svg+xml" data="img/facebook.svg"></object>
+                                <object type="image/svg+xml" data="../img/facebook.svg"></object>
                             </a>
                             <a class="icons" href="https://twitter.com/MobilePhones15">
-                                <object type="image/svg+xml" data="img/twitter.svg"></object>
+                                <object type="image/svg+xml" data="../img/twitter.svg"></object>
                             </a>
                             <a class="icons" href="https://plus.google.com/u/0/communities/115454800476845588361">
-                                <object type="image/svg+xml" data="img/google+.svg"></object>
+                                <object type="image/svg+xml" data="../img/google+.svg"></object>
                             </a>
                         </div>
                     </div>
@@ -169,4 +169,4 @@
             </footer>
     	</div>
 	</body>
-<!-- InstanceEnd --></html>
+</html>
