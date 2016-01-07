@@ -101,7 +101,7 @@ nav #nav-buttons {
 	font-weight: 300;
 }
 
-.content-width {
+.max-width {
 	margin: auto;
 	max-width: 1366px;
 	width: 90%;
@@ -109,4 +109,33 @@ nav #nav-buttons {
 
 #footer {
 	background-color: #00BCD4;
+}
+
+.footer-parts {
+	width: 33%;
+	padding: 0 0 !important;
+}
+
+.footer-parts h5 {
+	color: #FFF;
+}
+.footer-parts li a {
+	color: #eeeeee;
+}
+
+.icons {
+	display: inline-block;
+	margin-top: 16px;
+	margin-bottom: 8px;
+	margin-right: 16px;
+}
+.icons object{
+	width: 48px;
+	height:48px;	
+	pointer-events: none;
+}
+
+.footer-copyright a {
+	color: #F5F5F5;
+	float: right;
 }
