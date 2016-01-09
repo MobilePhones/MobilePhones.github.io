@@ -11,6 +11,11 @@ nav #logo {
 	color: #FFFFFF;
 }
 
+nav #logo img {
+	height: 35px;
+	margin-bottom: -6px;
+}
+
 @media only screen and (max-width: 600px) {
 	#nav-buttons {
 		display: none !important;
@@ -99,6 +104,13 @@ nav #nav-buttons {
 #rotating-banner h5 {
 	color: #eeeeee !important;
 	font-weight: 300;
+}
+
+#banner-card {
+	background-color: #00BCD4;
+}
+#banner-card img {
+	width: 100%;
 }
 
 .max-width {
