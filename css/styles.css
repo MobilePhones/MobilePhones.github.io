@@ -109,14 +109,50 @@ nav #nav-buttons {
 #banner-card {
 	background-color: #00BCD4;
 }
+
 #banner-card img {
 	width: 100%;
 }
 
 .max-width {
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	max-width: 1366px;
 	width: 90%;
+}
+
+#side_bar, #side_bar2 {
+	width: 24%;
+}
+
+#main_content {
+	width: 76%;
+}
+
+.three_column {
+	width: 52% !important;
+}
+
+.one_column {
+	width: 100% !important;
+}
+
+#main_content, #side_bar, #side_bar2 {
+	margin-top: 24px;
+	margin-bottom: 48px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#side_bar2 img {
+	width: 265px;
+	margin-bottom: 24px;
+}
+
+#side_bar_card img{
+	width: 5.5rem;
+	height: 4rem;
+	margin-bottom: 24px;
 }
 
 .image img {
@@ -125,9 +161,24 @@ nav #nav-buttons {
 	margin-bottom: 12px;
 }
 
-.content-margin {
-	margin-top: 24px;
-	margin-bottom: 48px;
+iframe, video {
+	width: 640px;
+	height: 360px; 
+}
+
+audio {
+	width: 640px;
+}
+
+.not-displayed {
+	display: none;
+}
+
+#xperia {
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 }
 
 #flabel {
@@ -136,6 +187,10 @@ nav #nav-buttons {
 
 #join_us {
 	padding-left: 10px;
+}
+
+.top-padding {
+	padding-top: 24px;
 }
 
 #footer {
