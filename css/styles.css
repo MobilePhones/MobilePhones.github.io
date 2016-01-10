@@ -161,6 +161,10 @@ nav #nav-buttons {
 	margin-bottom: 12px;
 }
 
+#gifs img {
+	height: 370px;
+}
+
 iframe, video {
 	width: 640px;
 	height: 360px; 
@@ -181,6 +185,18 @@ audio {
 	padding-bottom: 12px;
 }
 
+#apple {
+	margin-bottom: 74px;
+}
+
+#xperia-big {
+	width: 50% !important;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
 #flabel {
 	margin-left: 20px;
 }
@@ -191,6 +207,19 @@ audio {
 
 .top-padding {
 	padding-top: 24px;
+}
+
+.bottom-padding {
+	padding-bottom: 24px;
+}
+
+.carousel-item {
+	width: 400px !important;
+}
+
+#brands-logos img {
+	width: 100%;
+	padding-top: 30px;
 }
 
 #footer {

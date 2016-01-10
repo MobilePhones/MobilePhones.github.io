@@ -13,6 +13,8 @@ $(document).ready(function(){
 		in_duration: 350,
 		out_duration: 250,
     });
+	
+	$('.carousel').carousel();
 });
 
 function loggedIn() {
