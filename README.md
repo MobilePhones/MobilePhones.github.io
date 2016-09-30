@@ -3,7 +3,9 @@ Website - Mobile Phones
 
 
 The website can be accessed through the following URL:
-> - http://MobilePhones.github.io/
+> - http://phones.ml
+> - http://mobilephones.ml
+> - http://OmarEinea.github.io/MobilePhones
 
 
 ####Resources
@@ -15,4 +17,4 @@ The website can be accessed through the following URL:
 
 Copyright (C) 2015 by Omar & Anas Einea.
 
-This website is licensed under MIT License. A copy of the license can be found [here](https://github.com/MobilePhones/MobilePhones.github.io/blob/master/LICENSE.md).
+This website is licensed under MIT License. A copy of the license can be found [here](https://github.com/OmarEinea/MobilePhones/blob/master/LICENSE.md).
