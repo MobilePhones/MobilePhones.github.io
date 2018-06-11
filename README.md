@@ -1,19 +1,19 @@
 Website - Mobile Phones
 ---
 
+The website was done as a project for one of my early university courses.  
+It can be accessed through the following URLs:
 
-The website can be accessed through the following URL:
-> - http://phones.ml
-> - http://mobilephones.ml
-> - http://OmarEinea.github.io/MobilePhones
-
-
-####Resources
-> - [jQuery](https://github.com/jquery/jquery)
-> - [Materialize](https://github.com/dogfalo/materialize)
+- https://omareinea.com/MobilePhones
+- https://omareinea.github.io/MobilePhones
 
 
-####License
+### Resources
+- [jQuery](https://github.com/jquery/jquery)
+- [Materialize](https://github.com/dogfalo/materialize)
+
+
+### License
 
 Copyright (C) 2015 by Omar & Anas Einea.
 
